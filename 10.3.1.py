@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 def isIterable(obj):
     try:
         iter(obj)
@@ -13,4 +10,3 @@ objects = [123, "hello", [1, 2, 3], {"a": 1, "b": 2}, (4, 5), None]
 for obj in objects:
     if isIterable(obj):
         print(f"Об'єкт {obj} підтримує ітераційний протокол")
->>>>>>> 8ac03ee (Додано код 10.3.1)
